@@ -25,11 +25,11 @@ console.log(interestRate);
 
 // --Kapitel 2: Primitive Types/Primitive Typen--
 
-let name = 'Manuel'; // String literal (Zeichenfolge, Buchstaben oder Zahlen in Anführungszeichen("),('))
+let name1 = 'Manuel'; // String literal (Zeichenfolge, Buchstaben oder Zahlen in Anführungszeichen("),('))
 let age = 26; // Number literal (numerische Zeichenfolge)
 let isApproved = false; // Boolean Literal
-let firstName;  // nicht definierter Wert (Abk. für: let firstName = undefined;)
-let selectedColor = null; // kein Wert, kann im Nachhinein geändert werden z.B auf 'red'
+let surName; // nicht definierter Wert (Abk. für: let surName = undefined;)
+let selectedColor = null; // kein Wert, kann im Nachhinein geändert werden z.B auf 'red' (null ist ein object)
 
 // --Kapitel 2.1: Dynamic Typing/Dynamische Typisierung
 
@@ -37,10 +37,11 @@ let selectedColor = null; // kein Wert, kann im Nachhinein geändert werden z.B 
 // Bei Javascript allerdings ginge dies schon mit "let" ,wie bei Zeile 28, wie das funktioniert siehe Zeile 43
 // Verwende die Konsole im Webbrowser von der "index.html" Datei
 // Mit dem "typeof" Operator kannst du nun testen, welchen Typ die in Zeile 28-32 vergebenen Variablen haben
-// Nehmen wir als Beispiel Zeile 28 her. Die Variable: name = 'Manuel'
-// Geben wir nun "typeof name" ein (ohne Anführungszeichen) kommt als Ergebnis "string", somit wissen wir es ist ein string.
+// Nehmen wir als Beispiel Zeile 28 her. Die Variable: name1 = 'Manuel'
+// Geben wir nun "typeof name1" ein (ohne Anführungszeichen) kommt als Ergebnis "string", somit wissen wir es ist ein string.
 // Bei Zeile 29 ist das Ergebnis "number", bei Zeile 30 "boolean",...
 // Nun kommen wir zur dynamischen Typisierung/ dynamic Typing, bei Zeile 28 haben wir einen "string" erstellt,
-// wir können die Variable "name" aber auch zu einer Nummer ändern in der Konsole mit dem Befehl: name = 1
-// wenn wir danach "typeof name" eingeben kommt als Ergebnis 'number', somit haben nun den String Literal zu einem
+// wir können die Variable "name1" aber auch zu einer Nummer ändern in der Konsole mit dem Befehl: name1 = 3
+// wenn wir danach "typeof name1" eingeben kommt als Ergebnis 'number', somit haben nun den String Literal zu einem
 // Number Literal geändert und dies nennt man "dynamic typing".
+
