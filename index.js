@@ -83,5 +83,21 @@ console.log(person.name2);
 
 // --Kapitel 4: array/Anordnung--
 
-let selectedColors = ['red','blue'];
+let selectedColors = ['red','blue'];  // array literal []
+selectedColors[2] = 1;
 console.log(selectedColors);
+
+// im "array literal" befinden sich 2 "strings", nämlich ['red','blue']
+// In der Konsole sehen wir, dass diese Anordnung in den Eckklammern vom object "selectedColors" 2 Werte hat (Anzahl genannt length/Länge)
+// immer beginnend von 0.In dem Fall wie man in der Konsole sieht length: 3,also 0-2 (0,1,2).
+// Da wir bei Zeile 87 in den den Brackets [] den 3.Wert
+//vergeben haben [2],der Wert ist wurde als 1 definiert und somit eine number/Zahl.
+// Das selbe Ergebnis wäre in Zeile 87 in den Brackets ['red','blue',1] Hier haben wir im nachhinein beim object "selectedColors" den Wert später hinzugefügt.
+//Bei Zeile 88 können wir mit dem Befehl "console.log(selectedColors.lenght);"ausschließlich die Anzahl der Werte (lenght)
+// vom object "selectedColors" auslesen,(Lenght: 3)
+//Indem wir einfach am Ende des Befehls noch in den Klammern ".lenght" hinzufügen
+
+
+// --Kapitel 5: functions/Funktionen--
+
+
