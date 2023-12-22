@@ -131,7 +131,3 @@ dist
 #.idea File
 .idea/
 
-#packages .json
-
-package-lock.json
-package.json

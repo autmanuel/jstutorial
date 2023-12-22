@@ -89,15 +89,43 @@ console.log(selectedColors);
 
 // im "array literal" befinden sich 2 "strings", nämlich ['red','blue']
 // In der Konsole sehen wir, dass diese Anordnung in den Eckklammern vom object "selectedColors" 2 Werte hat (Anzahl genannt length/Länge)
-// immer beginnend von 0.In dem Fall wie man in der Konsole sieht length: 3,also 0-2 (0,1,2).
-// Da wir bei Zeile 87 in den den Brackets [] den 3.Wert
-//vergeben haben [2],der Wert ist wurde als 1 definiert und somit eine number/Zahl.
+// immer beginnend von 0.In dem Fall wie man in der Konsole sieht length: 3,somit von 0-2 (0,1,2).
+// Da wir bei Zeile 87 in den den Brackets [] den 3.Wert/Element
+// vergeben haben [2],der Wert ist wurde als 1 definiert und somit eine number/Zahl.
 // Das selbe Ergebnis wäre in Zeile 87 in den Brackets ['red','blue',1] Hier haben wir im nachhinein beim object "selectedColors" den Wert später hinzugefügt.
-//Bei Zeile 88 können wir mit dem Befehl "console.log(selectedColors.lenght);"ausschließlich die Anzahl der Werte (lenght)
+// Bei Zeile 88 können wir mit dem Befehl "console.log(selectedColors.lenght);"ausschließlich die Anzahl der Werte/Elemente (lenght)
 // vom object "selectedColors" auslesen,(Lenght: 3)
-//Indem wir einfach am Ende des Befehls noch in den Klammern ".lenght" hinzufügen
+// Indem wir einfach am Ende des Befehls noch in den Klammern ".lenght" hinzufügen
 
 
 // --Kapitel 5: functions/Funktionen--
 
+function greet(name , lastName) {
+console.log('Hello ' + name + ' ' + lastName);
+}
+
+greet('John' , 'Smith');
+
+// Eine Funktion ist quasi eine Kombination aus "statements" die eine Aufgabe/tasks ausführt, oder einen Wert kalkuliert.
+// In Zeile 103 haben wir mit dem "keyword" "function" eine function namens "greet" erstellt.
+// Daneben in den Klammern () ist ein Paramenter der Funktion, in dem Fall 2 Variable nämlich "(name, lastName)".
+// Die Variablen können nur innerhalb dieser Funktion aufgerufen werden (somit nur in den "curly braces" {}),
+// nämlich im Inhalt der "curly Braces"{}, quasi der "body" der Funktion.
+
+// Bei Zeile 104 haben wir einen String ('Hello') durch das + daneben können wir weitere Strings hinzufügen.
+// ('Hello ' + name + ' ' + lastName)   Durchs + wird neben dem String das erste Argument (name) und durchs zweite
+// + ein Platzhalter fürs zweite Argument (lastName) eingesetzt, das letzte + natürlich um das zweite Argument in den Platzhalter
+// einzufügen, in dem Fall Smith (lastName).
+// Anders als bei einer Variable (z.B let) benötigen wir hier kein Semikolon (;) nach den "curly braces{}",
+// da es eine Funktion ist, die deklariert wird und kein Statement.
+// Bei Zeile 107 setzem wir dann ein Statement und in den Klammern () haben wir 2 Argumente zu den Variablen
+// "name" und "lastName" deklariert. "John" (name) und 'Smith' (lastName) .
+// Wodurch der gesetzte Parameter (name) und (lastName) bei von Zeile zum Einsatz kommt,
+
+// !!!ACHTUNG VIELE ERKENNEN KEINEN UNTERSCHIED ZW. EINEM PARAMETER UND EIN ARGUMENT, DENN (name, lastName) SIND EIN PARAMETER DER
+// "greet function" UND ('John' 'Smith') DIE ARGUMENTE DAZU, DER AKTUELLE WERT FÜR DIESEN PARAMETER!!!
+// In der Konsole müsste nun "Hello John Smith" stehen.
+
+
+// --Kapitel 6: types of function/Typen der Funktionen--
 
