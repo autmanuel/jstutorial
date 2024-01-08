@@ -1,24 +1,27 @@
 // --Kapitel 1: Variables/Variablen--
 
+// --let--
 let name = 'Manuel'
 console.log(name);
 
 let firstName = 'Max';
 let lastName = 'Mustermann';
 
-// Keine vorgefertigten Schlüsselwörter! (z.B if,else,..)
-// Aussagekräftige Definitionen für mehr Überblick und Verständnis (Kein x,a,c,..)
+// Variablen: var,let,const (var wird nicht mehr verwendet)
+// Eigenschaften zum definieren einer Variable:
+// Keine vorgefertigten Schlüsselwörter! (if,else,..)
+// Aussagekräftige Definitionen verwenden für mehr Überblick und Verständnis! (kein a,b,c,..)
 // Kann nicht mit einer Zahl beginnen (1name)
 // Darf kein Leerzeichen oder Bindestrich enthalten
 // Abhängig von Groß- und Kleinschreibung (camel notation!! Zeile 6-7)
 
-// --Kapitel 2: Constants/Konstante--
+// --Constants/Konstante--
 
 let interestRate = 0.3;
 interestRate = 1;
 console.log(interestRate);
 
-// Wert der Variable ist unveränderbar. Um dies zu testen ändere den Befehl "let" auf "const" bei Zeile 19
+// Wert einer Konstante ist unveränderbar. Um dies zu testen ändere den Befehl "let" auf "const" bei Zeile 17
 // Durch Zeile 19 wird nun in der Konsole eine Fehlermeldung angezeigt, da der Wert bei Zeile 17 auf 0.3 fixiert wurde,
 // und bei Zeile 18 auf 1 geändert, dies wäre nur mit "let" möglich. Ändere den Befehl "const" wieder auf "let" um mit
 // den restlichen Kapiteln ohne Fehlermeldung fortzufahren.
